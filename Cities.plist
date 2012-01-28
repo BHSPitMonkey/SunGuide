@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+
+<array>
+<dict><key>cityNameKey</key><string>AK – Anchorage</string><key>latitudeKey</key><string>61.21667</string><key>longitudeKey</key><string>-149.9</string></dict>
+<dict><key>cityNameKey</key><string>AK – Juneau Alaska</string><key>latitudeKey</key><string>58.3</string><key>longitudeKey</key><string>-134.4</string></dict>
+<dict><key>cityNameKey</key><string>AK – Mobile</string><key>latitudeKey</key><string>30.7</string><key>longitudeKey</key><string>-88.05</string></dict>
+<dict><key>cityNameKey</key><string>AK – Nome Alaska</string><key>latitudeKey</key><string>64.41667</string><key>longitudeKey</key><string>-165.5</string></dict>
+<dict><key>cityNameKey</key><string>AK – Sitka Alaska</string><key>latitudeKey</key><string>57.16667</string><key>longitudeKey</key><string>-135.25</string></dict>
+<dict><key>cityNameKey</key><string>AL – Birmingham</string><key>latitudeKey</key><string>33.5</string><key>longitudeKey</key><string>-86.8333333</string></dict>
+<dict><key>cityNameKey</key><string>AL – Montgomery</string><key>latitudeKey</key><string>32.35</string><key>longitudeKey</key><string>-86.3</string></dict>
+<dict><key>cityNameKey</key><string>AR – Hot Springs</string><key>latitudeKey</key><string>34.51667</string><key>longitudeKey</key><string>-93.05</string></dict>
+<dict><key>cityNameKey</key><string>AZ – Flagstaff</string><key>latitudeKey</key><string>35.21667</string><key>longitudeKey</key><string>-111.683333</string></dict>
+<dict><key>cityNameKey</key><string>AZ – Phoenix</string><key>latitudeKey</key><string>33.4833333</string><key>longitudeKey</key><string>-112.0667</string></dict>
+<dict><key>cityNameKey</key><string>CA – El Centro</string><key>latitudeKey</key><string>32.6333333</string><key>longitudeKey</key><string>-115.55</string></dict>
+<dict><key>cityNameKey</key><string>CA – Fresno</string><key>latitudeKey</key><string>36.7333333</string><key>longitudeKey</key><string>-119.8</string></dict>
+<dict><key>cityNameKey</key><string>CA – Long Beach</string><key>latitudeKey</key><string>33.76667</string><key>longitudeKey</key><string>-118.183333</string></dict>
+<dict><key>cityNameKey</key><string>CA – Los Angeles</string><key>latitudeKey</key><string>34.05</string><key>longitudeKey</key><string>-118.25</string></dict>
+<dict><key>cityNameKey</key><string>CA – Oakland</string><key>latitudeKey</key><string>37.8</string><key>longitudeKey</key><string>-122.2667</string></dict>
+<dict><key>cityNameKey</key><string>CA – Sacramento</string><key>latitudeKey</key><string>38.5833333</string><key>longitudeKey</key><string>-121.5</string></dict>
+<dict><key>cityNameKey</key><string>CA – San Diego</string><key>latitudeKey</key><string>32.7</string><key>longitudeKey</key><string>-117.1667</string></dict>
+<dict><key>cityNameKey</key><string>CA – San Francisco</string><key>latitudeKey</key><string>37.7833333</string><key>longitudeKey</key><string>-122.433333</string></dict>
+<dict><key>cityNameKey</key><string>CA – San Jose</string><key>latitudeKey</key><string>37.3333333</string><key>longitudeKey</key><string>-121.883333</string></dict>
+<dict><key>cityNameKey</key><string>CO – Denver</string><key>latitudeKey</key><string>39.75</string><key>longitudeKey</key><string>-105</string></dict>
+<dict><key>cityNameKey</key><string>CO – Grand Junction</string><key>latitudeKey</key><string>39.0833333</string><key>longitudeKey</key><string>-108.55</string></dict>
+<dict><key>cityNameKey</key><string>CT – New Haven</string><key>latitudeKey</key><string>41.31667</string><key>longitudeKey</key><string>-72.91667</string></dict>
+<dict><key>cityNameKey</key><string>DC – Washington</string><key>latitudeKey</key><string>38.8833333</string><key>longitudeKey</key><string>-77.0333333</string></dict>
+<dict><key>cityNameKey</key><string>FL – Jacksonville</string><key>latitudeKey</key><string>30.36667</string><key>longitudeKey</key><string>-81.66667</string></dict>
+<dict><key>cityNameKey</key><string>FL – Key West</string><key>latitudeKey</key><string>24.55</string><key>longitudeKey</key><string>-81.8</string></dict>
+<dict><key>cityNameKey</key><string>FL – Miami</string><key>latitudeKey</key><string>25.76667</string><key>longitudeKey</key><string>-80.2</string></dict>
+<dict><key>cityNameKey</key><string>FL – Tampa</string><key>latitudeKey</key><string>27.95</string><key>longitudeKey</key><string>-82.45</string></dict>
+<dict><key>cityNameKey</key><string>GA – Atlanta</string><key>latitudeKey</key><string>33.75</string><key>longitudeKey</key><string>-84.3833333</string></dict>
+<dict><key>cityNameKey</key><string>GA – Savannah </string><key>latitudeKey</key><string>32.0833333</string><key>longitudeKey</key><string>-81.0833333</string></dict>
+<dict><key>cityNameKey</key><string>HI – Honolulu</string><key>latitudeKey</key><string>21.3</string><key>longitudeKey</key><string>-157.833333</string></dict>
+<dict><key>cityNameKey</key><string>IA - Des Moines</string><key>latitudeKey</key><string>41.5833333</string><key>longitudeKey</key><string>-93.61667</string></dict>
+<dict><key>cityNameKey</key><string>IA – Dubuque</string><key>latitudeKey</key><string>42.51667</string><key>longitudeKey</key><string>-90.66667</string></dict>
+<dict><key>cityNameKey</key><string>ID – Boise</string><key>latitudeKey</key><string>43.6</string><key>longitudeKey</key><string>-116.216666666667</string></dict>
+<dict><key>cityNameKey</key><string>ID –  Falls </string><key>latitudeKey</key><string>43.5</string><key>longitudeKey</key><string>-112.016666666667</string></dict>
+<dict><key>cityNameKey</key><string>ID – Lewiston </string><key>latitudeKey</key><string>46.4</string><key>longitudeKey</key><string>-117.033333</string></dict>
+<dict><key>cityNameKey</key><string>IL – Chicago</string><key>latitudeKey</key><string>41.8333333</string><key>longitudeKey</key><string>-87.61667</string></dict>
+<dict><key>cityNameKey</key><string>IL – Springfield </string><key>latitudeKey</key><string>39.8</string><key>longitudeKey</key><string>-89.6333334</string></dict>
+<dict><key>cityNameKey</key><string>IN – Indianapolis</string><key>latitudeKey</key><string>39.76667</string><key>longitudeKey</key><string>-86.16667</string></dict>
+<dict><key>cityNameKey</key><string>KS – Wichita</string><key>latitudeKey</key><string>37.71667</string><key>longitudeKey</key><string>-97.2833333</string></dict>
+<dict><key>cityNameKey</key><string>KY – Louisville</string><key>latitudeKey</key><string>38.25</string><key>longitudeKey</key><string>-85.76667</string></dict>
+<dict><key>cityNameKey</key><string>LA – New Orleans</string><key>latitudeKey</key><string>29.95</string><key>longitudeKey</key><string>-90.06667</string></dict>
+<dict><key>cityNameKey</key><string>LA – Shreveport</string><key>latitudeKey</key><string>32.46667</string><key>longitudeKey</key><string>-93.7</string></dict>
+<dict><key>cityNameKey</key><string>MA – Boston</string><key>latitudeKey</key><string>42.35</string><key>longitudeKey</key><string>-71.0833333</string></dict>
+<dict><key>cityNameKey</key><string>MA – Springfield</string><key>latitudeKey</key><string>42.1</string><key>longitudeKey</key><string>-72.56667</string></dict>
+<dict><key>cityNameKey</key><string>MD – Baltimore</string><key>latitudeKey</key><string>39.3</string><key>longitudeKey</key><string>-76.6333333</string></dict>
+<dict><key>cityNameKey</key><string>ME – Bangor</string><key>latitudeKey</key><string>44.8</string><key>longitudeKey</key><string>-68.7833333</string></dict>
+<dict><key>cityNameKey</key><string>ME – Eastport</string><key>latitudeKey</key><string>44.9</string><key>longitudeKey</key><string>-67</string></dict>
+<dict><key>cityNameKey</key><string>ME – Portland</string><key>latitudeKey</key><string>43.66667</string><key>longitudeKey</key><string>-70.25</string></dict>
+<dict><key>cityNameKey</key><string>MI - Grand Rapids</string><key>latitudeKey</key><string>42.96667</string><key>longitudeKey</key><string>-85.66667</string></dict>
+<dict><key>cityNameKey</key><string>MI – Detroit</string><key>latitudeKey</key><string>42.3333333</string><key>longitudeKey</key><string>-83.05</string></dict>
+<dict><key>cityNameKey</key><string>MN – Duluth</string><key>latitudeKey</key><string>46.81667</string><key>longitudeKey</key><string>-92.0833333</string></dict>
+<dict><key>cityNameKey</key><string>MN – Minneapolis</string><key>latitudeKey</key><string>44.9833333</string><key>longitudeKey</key><string>-93.2333333</string></dict>
+<dict><key>cityNameKey</key><string>MO – Kansas City</string><key>latitudeKey</key><string>39.1</string><key>longitudeKey</key><string>-94.5833333</string></dict>
+<dict><key>cityNameKey</key><string>MO – Springfield</string><key>latitudeKey</key><string>37.21667</string><key>longitudeKey</key><string>-93.2833333</string></dict>
+<dict><key>cityNameKey</key><string>MO – St. Louis</string><key>latitudeKey</key><string>38.5833333</string><key>longitudeKey</key><string>-90.2</string></dict>
+<dict><key>cityNameKey</key><string>MS – Jackson</string><key>latitudeKey</key><string>32.3333333</string><key>longitudeKey</key><string>-90.2</string></dict>
+<dict><key>cityNameKey</key><string>MT – Havre</string><key>latitudeKey</key><string>48.55</string><key>longitudeKey</key><string>-109.716666666667</string></dict>
+<dict><key>cityNameKey</key><string>MT – Helena</string><key>latitudeKey</key><string>46.5833333</string><key>longitudeKey</key><string>-112.033333</string></dict>
+<dict><key>cityNameKey</key><string>NC – Charlotte</string><key>latitudeKey</key><string>35.2333333</string><key>longitudeKey</key><string>-80.8333333</string></dict>
+<dict><key>cityNameKey</key><string>NC – Raleigh</string><key>latitudeKey</key><string>35.76667</string><key>longitudeKey</key><string>-78.65</string></dict>
+<dict><key>cityNameKey</key><string>NC – Wilmington</string><key>latitudeKey</key><string>34.2333333</string><key>longitudeKey</key><string>-77.95</string></dict>
+<dict><key>cityNameKey</key><string>ND – Bismarck</string><key>latitudeKey</key><string>46.8</string><key>longitudeKey</key><string>-100.783333</string></dict>
+<dict><key>cityNameKey</key><string>ND – Fargo</string><key>latitudeKey</key><string>46.86667</string><key>longitudeKey</key><string>-96.8</string></dict>
+<dict><key>cityNameKey</key><string>NE – Lincoln</string><key>latitudeKey</key><string>40.8333333</string><key>longitudeKey</key><string>-96.66667</string></dict>
+<dict><key>cityNameKey</key><string>NE – Omaha</string><key>latitudeKey</key><string>41.25</string><key>longitudeKey</key><string>-95.9333333</string></dict>
+<dict><key>cityNameKey</key><string>NH – Manchester</string><key>latitudeKey</key><string>43</string><key>longitudeKey</key><string>-71.5</string></dict>
+<dict><key>cityNameKey</key><string>NJ – Newark</string><key>latitudeKey</key><string>40.7333333</string><key>longitudeKey</key><string>-74.16667</string></dict>
+<dict><key>cityNameKey</key><string>NM – Albuquerque</string><key>latitudeKey</key><string>35.0833333</string><key>longitudeKey</key><string>-106.65</string></dict>
+<dict><key>cityNameKey</key><string>NM – Carlsbad</string><key>latitudeKey</key><string>32.4333333</string><key>longitudeKey</key><string>-104.25</string></dict>
+<dict><key>cityNameKey</key><string>NM – Santa Fe</string><key>latitudeKey</key><string>35.6833333</string><key>longitudeKey</key><string>-105.95</string></dict>
+<dict><key>cityNameKey</key><string>NV – Las Vegas</string><key>latitudeKey</key><string>36.16667</string><key>longitudeKey</key><string>-115.2</string></dict>
+<dict><key>cityNameKey</key><string>NV – Reno</string><key>latitudeKey</key><string>39.5</string><key>longitudeKey</key><string>-119.816666666667</string></dict>
+<dict><key>cityNameKey</key><string>NY – Albany</string><key>latitudeKey</key><string>42.66667</string><key>longitudeKey</key><string>-73.75</string></dict>
+<dict><key>cityNameKey</key><string>NY – Buffalo</string><key>latitudeKey</key><string>42.91667</string><key>longitudeKey</key><string>-78.8333333</string></dict>
+<dict><key>cityNameKey</key><string>NY – New York</string><key>latitudeKey</key><string>40.7833333</string><key>longitudeKey</key><string>-73.96667</string></dict>
+<dict><key>cityNameKey</key><string>NY – Syracuse</string><key>latitudeKey</key><string>43.0333333</string><key>longitudeKey</key><string>-76.1333333</string></dict>
+<dict><key>cityNameKey</key><string>OH – Cincinnati</string><key>latitudeKey</key><string>39.1333333</string><key>longitudeKey</key><string>-84.5</string></dict>
+<dict><key>cityNameKey</key><string>OH – Cleveland</string><key>latitudeKey</key><string>41.46667</string><key>longitudeKey</key><string>-81.61667</string></dict>
+<dict><key>cityNameKey</key><string>OH – Columbus</string><key>latitudeKey</key><string>40</string><key>longitudeKey</key><string>-83.01667</string></dict>
+<dict><key>cityNameKey</key><string>OH – Toledo Ohio</string><key>latitudeKey</key><string>41.65</string><key>longitudeKey</key><string>-83.55</string></dict>
+<dict><key>cityNameKey</key><string>OK – Oklahoma City</string><key>latitudeKey</key><string>35.4333333</string><key>longitudeKey</key><string>-97.46667</string></dict>
+<dict><key>cityNameKey</key><string>OK – Tulsa</string><key>latitudeKey</key><string>36.15</string><key>longitudeKey</key><string>-95.9833333</string></dict>
+<dict><key>cityNameKey</key><string>OR – Baker</string><key>latitudeKey</key><string>44.7833333</string><key>longitudeKey</key><string>-117.833333</string></dict>
+<dict><key>cityNameKey</key><string>OR – Eugene</string><key>latitudeKey</key><string>44.05</string><key>longitudeKey</key><string>-123.083333</string></dict>
+<dict><key>cityNameKey</key><string>OR – Klamath Falls</string><key>latitudeKey</key><string>42.16667</string><key>longitudeKey</key><string>-121.733333</string></dict>
+<dict><key>cityNameKey</key><string>OR – Portland</string><key>latitudeKey</key><string>45.51667</string><key>longitudeKey</key><string>-122.683333</string></dict>
+<dict><key>cityNameKey</key><string>PA – Philadelphia</string><key>latitudeKey</key><string>39.95</string><key>longitudeKey</key><string>-75.16667</string></dict>
+<dict><key>cityNameKey</key><string>PA – Pittsburgh</string><key>latitudeKey</key><string>40.45</string><key>longitudeKey</key><string>-79.95</string></dict>
+<dict><key>cityNameKey</key><string>PR – San Juan</string><key>latitudeKey</key><string>18.5</string><key>longitudeKey</key><string>-66.16667</string></dict>
+<dict><key>cityNameKey</key><string>RI – Providence</string><key>latitudeKey</key><string>41.8333333</string><key>longitudeKey</key><string>-71.4</string></dict>
+<dict><key>cityNameKey</key><string>SC – Charleston</string><key>latitudeKey</key><string>32.7833333</string><key>longitudeKey</key><string>-79.9333333</string></dict>
+<dict><key>cityNameKey</key><string>SC – Columbia</string><key>latitudeKey</key><string>34</string><key>longitudeKey</key><string>-81.0333333</string></dict>
+<dict><key>cityNameKey</key><string>SD – Pierre</string><key>latitudeKey</key><string>44.36667</string><key>longitudeKey</key><string>-100.35</string></dict>
+<dict><key>cityNameKey</key><string>SD – Sioux Falls</string><key>latitudeKey</key><string>43.55</string><key>longitudeKey</key><string>-96.7333333</string></dict>
+<dict><key>cityNameKey</key><string>TN – Knoxville</string><key>latitudeKey</key><string>35.95</string><key>longitudeKey</key><string>-83.9333333</string></dict>
+<dict><key>cityNameKey</key><string>TN – Memphis</string><key>latitudeKey</key><string>35.15</string><key>longitudeKey</key><string>-90.05</string></dict>
+<dict><key>cityNameKey</key><string>TN – Nashville</string><key>latitudeKey</key><string>36.16667</string><key>longitudeKey</key><string>-86.7833333</string></dict>
+<dict><key>cityNameKey</key><string>TX – Amarillo</string><key>latitudeKey</key><string>35.1833333</string><key>longitudeKey</key><string>-101.833333</string></dict>
+<dict><key>cityNameKey</key><string>TX – Austin</string><key>latitudeKey</key><string>30.26667</string><key>longitudeKey</key><string>-97.7333333</string></dict>
+<dict><key>cityNameKey</key><string>TX – Dallas</string><key>latitudeKey</key><string>32.76667</string><key>longitudeKey</key><string>-96.76667</string></dict>
+<dict><key>cityNameKey</key><string>TX – El Paso</string><key>latitudeKey</key><string>31.76667</string><key>longitudeKey</key><string>-106.483333</string></dict>
+<dict><key>cityNameKey</key><string>TX – Fort Worth</string><key>latitudeKey</key><string>32.71667</string><key>longitudeKey</key><string>-97.31667</string></dict>
+<dict><key>cityNameKey</key><string>TX – Houston</string><key>latitudeKey</key><string>29.75</string><key>longitudeKey</key><string>-95.35</string></dict>
+<dict><key>cityNameKey</key><string>TX – San Antonio</string><key>latitudeKey</key><string>29.3833333</string><key>longitudeKey</key><string>-98.55</string></dict>
+<dict><key>cityNameKey</key><string>UT – Richfield</string><key>latitudeKey</key><string>38.76667</string><key>longitudeKey</key><string>-112.083333</string></dict>
+<dict><key>cityNameKey</key><string>UT – Salt Lake City</string><key>latitudeKey</key><string>40.76667</string><key>longitudeKey</key><string>-111.9</string></dict>
+<dict><key>cityNameKey</key><string>VA – Richmond</string><key>latitudeKey</key><string>37.55</string><key>longitudeKey</key><string>-77.4833333</string></dict>
+<dict><key>cityNameKey</key><string>VA – Roanoke</string><key>latitudeKey</key><string>37.2833333</string><key>longitudeKey</key><string>-79.95</string></dict>
+<dict><key>cityNameKey</key><string>VA – Virginia Beach</string><key>latitudeKey</key><string>36.85</string><key>longitudeKey</key><string>-75.96667</string></dict>
+<dict><key>cityNameKey</key><string>VT – Montpelier</string><key>latitudeKey</key><string>44.25</string><key>longitudeKey</key><string>-72.5333333</string></dict>
+<dict><key>cityNameKey</key><string>WA – Seattle</string><key>latitudeKey</key><string>47.61667</string><key>longitudeKey</key><string>-122.333333</string></dict>
+<dict><key>cityNameKey</key><string>WA – Spokane</string><key>latitudeKey</key><string>47.66667</string><key>longitudeKey</key><string>-117.433333</string></dict>
+<dict><key>cityNameKey</key><string>WI – Milwaukee</string><key>latitudeKey</key><string>43.0333333</string><key>longitudeKey</key><string>-87.91667</string></dict>
+<dict><key>cityNameKey</key><string>WV – Charleston</string><key>latitudeKey</key><string>38.35</string><key>longitudeKey</key><string>-81.6333333</string></dict>
+<dict><key>cityNameKey</key><string>WY – Cheyenne</string><key>latitudeKey</key><string>41.15</string><key>longitudeKey</key><string>-104.8667</string></dict>
+
+
+</array>		
+</plist>

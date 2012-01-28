@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SunGuideAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SunGuideAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765580DF743DE002DB57D /* CoreGraphics.framework */; };
+		289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A30DB2D0840083E9F9 /* FlipsideView.m */; };
+		289233A70DB2D0840083E9F9 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A50DB2D0840083E9F9 /* MainView.m */; };
+		289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* MainViewController.m */; };
+		289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AB0DB2D0DB0083E9F9 /* RootViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */; };
+		DC3169AD1046365200C5A4CD /* Entitlement.plist in Resources */ = {isa = PBXBuildFile; fileRef = DC3169AC1046365200C5A4CD /* Entitlement.plist */; };
+		DC8D2DA70F2E798100E8EF6D /* MainBackdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8D2DA50F2E798100E8EF6D /* MainBackdrop.png */; };
+		DC8DC51B0F798AAE00F8A7B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC8DC51A0F798AAE00F8A7B2 /* CoreLocation.framework */; };
+		DC8DC5240F798B4600F8A7B2 /* MyCLController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8DC5230F798B4600F8A7B2 /* MyCLController.m */; };
+		DC8E99DC0F32E23600A9D1A8 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8E99DB0F32E23600A9D1A8 /* Default.png */; };
+		DC8E99DE0F32E36300A9D1A8 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = DC8E99DD0F32E36300A9D1A8 /* Icon.png */; };
+		DC90C2830F31784F009E07A7 /* PageScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC90C2810F31784F009E07A7 /* PageScrollView.m */; };
+		DC92F8A50FD4175E0089EA0F /* NSObject+SolarPos.m in Sources */ = {isa = PBXBuildFile; fileRef = DC92F8A40FD4175E0089EA0F /* NSObject+SolarPos.m */; };
+		DC9DF0790F2FAC5A00EAF0AB /* DataView.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9DF0780F2FAC5A00EAF0AB /* DataView.m */; };
+		DC9DF07E0F2FACA100EAF0AB /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9DF07D0F2FACA100EAF0AB /* DataViewController.m */; };
+		DCAA035C14D4B0CF00FAE721 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA035B14D4B0CF00FAE721 /* Reachability.m */; };
+		DCAA035E14D4B0E300FAE721 /* OfflineLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCAA035D14D4B0E300FAE721 /* OfflineLocationViewController.xib */; };
+		DCAA036114D4B0F500FAE721 /* OfflineLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCAA036014D4B0F500FAE721 /* OfflineLocationViewController.m */; };
+		DCC0244411ADBD1000CF4CFD /* crosshairs.png in Resources */ = {isa = PBXBuildFile; fileRef = DCC0244311ADBD1000CF4CFD /* crosshairs.png */; };
+		DCC6B7E311AD0DE40081BA30 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCC6B7E111AD0DE40081BA30 /* LocationViewController.m */; };
+		DCC6B7E711AD0FB10081BA30 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCC6B7E611AD0FB10081BA30 /* MapKit.framework */; };
+		DCE88D4111AE1C5700011038 /* DataView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE88D3C11AE1C5600011038 /* DataView.xib */; };
+		DCE88D4211AE1C5700011038 /* FlipsideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE88D3D11AE1C5600011038 /* FlipsideView.xib */; };
+		DCE88D4311AE1C5700011038 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE88D3E11AE1C5600011038 /* LocationViewController.xib */; };
+		DCE88D4411AE1C5700011038 /* MainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE88D3F11AE1C5600011038 /* MainView.xib */; };
+		DCE88D4511AE1C5700011038 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = DCE88D4011AE1C5600011038 /* MainWindow.xib */; };
+		DCE88D8511AE3D2C00011038 /* Cities.plist in Resources */ = {isa = PBXBuildFile; fileRef = DCE88D8411AE3D2C00011038 /* Cities.plist */; };
+		DCE88E5211AE6CD900011038 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCE88E5111AE6CD900011038 /* SystemConfiguration.framework */; };
+		DCF8D62C0F3683E4001AD7A8 /* sunriset.c in Sources */ = {isa = PBXBuildFile; fileRef = DCF8D62A0F3683E4001AD7A8 /* sunriset.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SunGuideAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunGuideAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SunGuideAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SunGuideAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* SunGuide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunGuide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765580DF743DE002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		289233A20DB2D0840083E9F9 /* FlipsideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideView.h; path = Classes/FlipsideView.h; sourceTree = "<group>"; };
+		289233A30DB2D0840083E9F9 /* FlipsideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideView.m; path = Classes/FlipsideView.m; sourceTree = "<group>"; };
+		289233A40DB2D0840083E9F9 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainView.h; path = Classes/MainView.h; sourceTree = "<group>"; };
+		289233A50DB2D0840083E9F9 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainView.m; path = Classes/MainView.m; sourceTree = "<group>"; };
+		289233A80DB2D0DB0083E9F9 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = Classes/MainViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = Classes/MainViewController.m; sourceTree = "<group>"; };
+		289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FlipsideViewController.h; path = Classes/FlipsideViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FlipsideViewController.m; path = Classes/FlipsideViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* SunGuide_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SunGuide_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC3169AC1046365200C5A4CD /* Entitlement.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlement.plist; sourceTree = "<group>"; };
+		DC8D2DA50F2E798100E8EF6D /* MainBackdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = MainBackdrop.png; path = Images/MainBackdrop.png; sourceTree = "<group>"; };
+		DC8DC51A0F798AAE00F8A7B2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC8DC5220F798B4600F8A7B2 /* MyCLController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyCLController.h; path = Classes/MyCLController.h; sourceTree = "<group>"; };
+		DC8DC5230F798B4600F8A7B2 /* MyCLController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyCLController.m; path = Classes/MyCLController.m; sourceTree = "<group>"; };
+		DC8E99DB0F32E23600A9D1A8 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DC8E99DD0F32E36300A9D1A8 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		DC90C2810F31784F009E07A7 /* PageScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PageScrollView.m; path = Classes/PageScrollView.m; sourceTree = "<group>"; };
+		DC90C2820F31784F009E07A7 /* PageScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PageScrollView.h; path = Classes/PageScrollView.h; sourceTree = "<group>"; };
+		DC92F8A30FD4175E0089EA0F /* NSObject+SolarPos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSObject+SolarPos.h"; path = "Classes/NSObject+SolarPos.h"; sourceTree = "<group>"; };
+		DC92F8A40FD4175E0089EA0F /* NSObject+SolarPos.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSObject+SolarPos.m"; path = "Classes/NSObject+SolarPos.m"; sourceTree = "<group>"; };
+		DC9DF0770F2FAC5A00EAF0AB /* DataView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataView.h; path = Classes/DataView.h; sourceTree = "<group>"; };
+		DC9DF0780F2FAC5A00EAF0AB /* DataView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataView.m; path = Classes/DataView.m; sourceTree = "<group>"; };
+		DC9DF07C0F2FACA100EAF0AB /* DataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataViewController.h; path = Classes/DataViewController.h; sourceTree = "<group>"; };
+		DC9DF07D0F2FACA100EAF0AB /* DataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataViewController.m; path = Classes/DataViewController.m; sourceTree = "<group>"; };
+		DCAA035A14D4B0CF00FAE721 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = Classes/Reachability.h; sourceTree = "<group>"; };
+		DCAA035B14D4B0CF00FAE721 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = Classes/Reachability.m; sourceTree = "<group>"; };
+		DCAA035D14D4B0E300FAE721 /* OfflineLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = OfflineLocationViewController.xib; path = Xibs/OfflineLocationViewController.xib; sourceTree = "<group>"; };
+		DCAA035F14D4B0F500FAE721 /* OfflineLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OfflineLocationViewController.h; path = Classes/OfflineLocationViewController.h; sourceTree = "<group>"; };
+		DCAA036014D4B0F500FAE721 /* OfflineLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OfflineLocationViewController.m; path = Classes/OfflineLocationViewController.m; sourceTree = "<group>"; };
+		DCB236550F7B34C600803079 /* Shortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Shortcuts.h; sourceTree = "<group>"; };
+		DCC0244311ADBD1000CF4CFD /* crosshairs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = crosshairs.png; path = Images/crosshairs.png; sourceTree = "<group>"; };
+		DCC6B7E011AD0DE40081BA30 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LocationViewController.h; path = Classes/LocationViewController.h; sourceTree = "<group>"; };
+		DCC6B7E111AD0DE40081BA30 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LocationViewController.m; path = Classes/LocationViewController.m; sourceTree = "<group>"; };
+		DCC6B7E611AD0FB10081BA30 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		DCE88D3C11AE1C5600011038 /* DataView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = DataView.xib; path = Xibs/DataView.xib; sourceTree = "<group>"; };
+		DCE88D3D11AE1C5600011038 /* FlipsideView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FlipsideView.xib; path = Xibs/FlipsideView.xib; sourceTree = "<group>"; };
+		DCE88D3E11AE1C5600011038 /* LocationViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LocationViewController.xib; path = Xibs/LocationViewController.xib; sourceTree = "<group>"; };
+		DCE88D3F11AE1C5600011038 /* MainView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainView.xib; path = Xibs/MainView.xib; sourceTree = "<group>"; };
+		DCE88D4011AE1C5600011038 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Xibs/MainWindow.xib; sourceTree = "<group>"; };
+		DCE88D8411AE3D2C00011038 /* Cities.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Cities.plist; sourceTree = "<group>"; };
+		DCE88E5111AE6CD900011038 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DCF8D62A0F3683E4001AD7A8 /* sunriset.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sunriset.c; path = Classes/sunriset.c; sourceTree = "<group>"; };
+		DCF8D62B0F3683E4001AD7A8 /* sunriset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sunriset.h; path = Classes/sunriset.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765590DF743DE002DB57D /* CoreGraphics.framework in Frameworks */,
+				DC8DC51B0F798AAE00F8A7B2 /* CoreLocation.framework in Frameworks */,
+				DCC6B7E711AD0FB10081BA30 /* MapKit.framework in Frameworks */,
+				DCE88E5211AE6CD900011038 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289233AA0DB2D0DB0083E9F9 /* RootViewController.h */,
+				289233AB0DB2D0DB0083E9F9 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* SunGuideAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SunGuideAppDelegate.m */,
+			);
+			name = "Application Controllers";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* SunGuide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281C6CD70DB2D82200F60ACC /* Flipside View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A20DB2D0840083E9F9 /* FlipsideView.h */,
+				289233A30DB2D0840083E9F9 /* FlipsideView.m */,
+				289233AC0DB2D0DB0083E9F9 /* FlipsideViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* FlipsideViewController.m */,
+			);
+			name = "Flipside View";
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				289233A40DB2D0840083E9F9 /* MainView.h */,
+				289233A50DB2D0840083E9F9 /* MainView.m */,
+				289233A80DB2D0DB0083E9F9 /* MainViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* MainViewController.m */,
+			);
+			name = "Main View";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				DCC6B7DE11AD0D9C0081BA30 /* Other Views */,
+				DC9DF0740F2FABA700EAF0AB /* Data View */,
+				289233A00DB2D0730083E9F9 /* Main View */,
+				281C6CD70DB2D82200F60ACC /* Flipside View */,
+				080E96DDFE201D6D7F000001 /* Application Controllers */,
+				DC92F8A20FD417230089EA0F /* Calculations */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				DCC6B7E611AD0FB10081BA30 /* MapKit.framework */,
+				DCE88E5111AE6CD900011038 /* SystemConfiguration.framework */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA035A14D4B0CF00FAE721 /* Reachability.h */,
+				DCAA035B14D4B0CF00FAE721 /* Reachability.m */,
+				DC90C2810F31784F009E07A7 /* PageScrollView.m */,
+				DC90C2820F31784F009E07A7 /* PageScrollView.h */,
+				32CA4F630368D1EE00C91783 /* SunGuide_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+				DC8DC5220F798B4600F8A7B2 /* MyCLController.h */,
+				DC8DC5230F798B4600F8A7B2 /* MyCLController.m */,
+				DCB236550F7B34C600803079 /* Shortcuts.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DCE88D3B11AE1C3B00011038 /* Xibs */,
+				DCC0244311ADBD1000CF4CFD /* crosshairs.png */,
+				DC8E99DD0F32E36300A9D1A8 /* Icon.png */,
+				DC8E99DB0F32E23600A9D1A8 /* Default.png */,
+				DC8D2DA50F2E798100E8EF6D /* MainBackdrop.png */,
+				DC3169AC1046365200C5A4CD /* Entitlement.plist */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				DCE88D8411AE3D2C00011038 /* Cities.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC8DC51A0F798AAE00F8A7B2 /* CoreLocation.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765580DF743DE002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC92F8A20FD417230089EA0F /* Calculations */ = {
+			isa = PBXGroup;
+			children = (
+				DCF8D62A0F3683E4001AD7A8 /* sunriset.c */,
+				DCF8D62B0F3683E4001AD7A8 /* sunriset.h */,
+				DC92F8A30FD4175E0089EA0F /* NSObject+SolarPos.h */,
+				DC92F8A40FD4175E0089EA0F /* NSObject+SolarPos.m */,
+			);
+			name = Calculations;
+			sourceTree = "<group>";
+		};
+		DC9DF0740F2FABA700EAF0AB /* Data View */ = {
+			isa = PBXGroup;
+			children = (
+				DC9DF0770F2FAC5A00EAF0AB /* DataView.h */,
+				DC9DF0780F2FAC5A00EAF0AB /* DataView.m */,
+				DC9DF07C0F2FACA100EAF0AB /* DataViewController.h */,
+				DC9DF07D0F2FACA100EAF0AB /* DataViewController.m */,
+			);
+			name = "Data View";
+			sourceTree = "<group>";
+		};
+		DCC6B7DE11AD0D9C0081BA30 /* Other Views */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA035F14D4B0F500FAE721 /* OfflineLocationViewController.h */,
+				DCAA036014D4B0F500FAE721 /* OfflineLocationViewController.m */,
+				DCC6B7E011AD0DE40081BA30 /* LocationViewController.h */,
+				DCC6B7E111AD0DE40081BA30 /* LocationViewController.m */,
+			);
+			name = "Other Views";
+			sourceTree = "<group>";
+		};
+		DCE88D3B11AE1C3B00011038 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				DCAA035D14D4B0E300FAE721 /* OfflineLocationViewController.xib */,
+				DCE88D3C11AE1C5600011038 /* DataView.xib */,
+				DCE88D3D11AE1C5600011038 /* FlipsideView.xib */,
+				DCE88D3E11AE1C5600011038 /* LocationViewController.xib */,
+				DCE88D3F11AE1C5600011038 /* MainView.xib */,
+				DCE88D4011AE1C5600011038 /* MainWindow.xib */,
+			);
+			name = Xibs;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* SunGuide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SunGuide" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunGuide;
+			productName = SunGuide;
+			productReference = 1D6058910D05DD3D006BFB54 /* SunGuide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Stephen Eisenhauer";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SunGuide" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* SunGuide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC8D2DA70F2E798100E8EF6D /* MainBackdrop.png in Resources */,
+				DC8E99DC0F32E23600A9D1A8 /* Default.png in Resources */,
+				DC8E99DE0F32E36300A9D1A8 /* Icon.png in Resources */,
+				DC3169AD1046365200C5A4CD /* Entitlement.plist in Resources */,
+				DCC0244411ADBD1000CF4CFD /* crosshairs.png in Resources */,
+				DCE88D4111AE1C5700011038 /* DataView.xib in Resources */,
+				DCE88D4211AE1C5700011038 /* FlipsideView.xib in Resources */,
+				DCE88D4311AE1C5700011038 /* LocationViewController.xib in Resources */,
+				DCE88D4411AE1C5700011038 /* MainView.xib in Resources */,
+				DCE88D4511AE1C5700011038 /* MainWindow.xib in Resources */,
+				DCE88D8511AE3D2C00011038 /* Cities.plist in Resources */,
+				DCAA035E14D4B0E300FAE721 /* OfflineLocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SunGuideAppDelegate.m in Sources */,
+				289233A60DB2D0840083E9F9 /* FlipsideView.m in Sources */,
+				289233A70DB2D0840083E9F9 /* MainView.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* MainViewController.m in Sources */,
+				289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* FlipsideViewController.m in Sources */,
+				DC9DF0790F2FAC5A00EAF0AB /* DataView.m in Sources */,
+				DC9DF07E0F2FACA100EAF0AB /* DataViewController.m in Sources */,
+				DC90C2830F31784F009E07A7 /* PageScrollView.m in Sources */,
+				DCF8D62C0F3683E4001AD7A8 /* sunriset.c in Sources */,
+				DC8DC5240F798B4600F8A7B2 /* MyCLController.m in Sources */,
+				DC92F8A50FD4175E0089EA0F /* NSObject+SolarPos.m in Sources */,
+				DCC6B7E311AD0DE40081BA30 /* LocationViewController.m in Sources */,
+				DCAA035C14D4B0CF00FAE721 /* Reachability.m in Sources */,
+				DCAA036114D4B0F500FAE721 /* OfflineLocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SunGuide_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SunGuide;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SunGuide_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SunGuide;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephen Eisenhauer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "39088114-29AA-4C50-BE1D-7899668B7305";
+				SDKROOT = iphoneos3.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC316998104635F200C5A4CD /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = Entitlement.plist;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Stephen Eisenhauer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "022F6CCE-A158-4934-B0CE-8092A47FA095";
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Adhoc;
+		};
+		DC316999104635F200C5A4CD /* Adhoc */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SunGuide_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				PRODUCT_NAME = SunGuide;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Adhoc;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "SunGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				DC316999104635F200C5A4CD /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SunGuide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				DC316998104635F200C5A4CD /* Adhoc */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
