@@ -1,8 +1,7 @@
-=========================
 SunGuide Solar Calculator
 =========================
 
------------
+
 Description
 -----------
 
@@ -19,7 +18,7 @@ SunGuide currently offers times for:
 
 SunGuide requires no internet connection, and can use Location Services to provide realtime position updates for its calculations.
 
--------------------
+
 Credits and License
 -------------------
 
